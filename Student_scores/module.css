@@ -1,0 +1,53 @@
+img{
+	position:absolute;
+	top:0px;
+	left:100px;
+}
+nav{
+	position:absolute;
+	top:160px;
+	left:100px;
+}
+h1{
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+#tab{
+	margin:0;
+	padding:0 0 24px;
+	list-style-type:none;
+	border-bottom:1px solid #11a3ff;
+}
+#tab a{
+	float:left;
+	padding:0 10px;
+	height:23px;
+	line-height:23px;
+	border:1px solid #11a3ff;
+	font-size:14px;color:green;
+	text-decoration:none;
+	background-color:#BDF;
+}
+#tab li
+{
+	float:left;
+	margin:0 4px 0 0;
+}
+div
+{
+	background:#fee;
+	padding:10px;
+	border:1px solid #11a3ff;
+	border-top:none;
+}
+#info2
+{
+	display:none;
+}
+#tab a:hover,#tab a.cur
+{
+	border-bottom:1px solid #fee;
+	color:#F74533;
+	background-color:#fee;
+}

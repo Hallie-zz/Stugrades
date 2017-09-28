@@ -1,0 +1,154 @@
+﻿body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font:12px Arial 宋体;
+	font-weight:bold;
+}
+.border
+{
+	border:1px solid #888;
+	border-radius:5px;
+}
+.bgcolor
+{
+	background:#DDD;
+}
+#container
+{
+	width:960px;
+	margin:0 auto;
+
+}
+#header
+{
+	float:left;
+	width:100%;
+	height:80px;
+	
+}
+#logo
+{
+	float:left;
+	width:200px;
+	height:80px;
+	background:url(logo.jpg);
+	background-position:center center;
+	/*background-repeat:0;*/
+	
+	border:1px solid #cccccc;
+}
+/*css中有一个background-position 属性设置背景图像的起始位置。
+
+他有以下可能的值：
+
+1，top left  左上角  
+
+2，top center  正上方
+
+3，top right  右上方
+
+4，center left  正左方
+
+5，center center  正中
+
+6，center right   正右方
+
+7，bottom left  左下方
+
+8，bottom center  正下方
+
+9，bottom right   右下方
+*/
+#banner
+{
+	float:right;
+	width:750px;
+}
+#banner #left{
+	float:left;
+	width:540px;
+	height:80px;
+	border:1px solid #cccccc;
+	background:url(head.jpg);
+}
+p
+{
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+#banner #right{
+	float:right;
+	width:200px;
+	height:80px;
+	border:1px solid #cccccc;
+	background:url(head.jpg);
+}
+.nav{
+	float:left;
+	height:5px;
+	width:100%;
+	overflow:hidden;
+	clear:both;
+}
+#menu
+{
+	float:left;
+	width:100%;
+	height:30px;
+	background:url(head.jpg);
+	font-size:20px;
+}
+marquee
+{
+	float:left;
+	width:100%;
+	height:30px;
+}
+#info2
+{
+	display:none;
+}
+#info3
+{
+	display:none;
+}
+#content 
+{
+	float:left;
+	width:100%;
+	height:260px;
+}
+#content #left
+{
+	float:left;
+	width:200px;
+	
+	
+}
+#left .lbox
+{
+	float:left;
+	width:200px;
+	height:80px;
+	border:1px solid #cccccc;
+	background:url(head.jpg),#cccccc;
+}
+#content .main
+{
+	float:right;
+	width:742px;
+	height:265px;
+	border:1px solid #cccccc;
+	background:url(main.jpg),#8db0b3;
+	
+}
+#footer
+{
+	float:left;
+	width:100%;
+	height:80px;
+	border:1px solid #cccccc;
+	background:url(footer.jpg);
+}
